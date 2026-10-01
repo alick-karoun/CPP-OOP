@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="hw3OOP/hw3OOP.vcxproj" Id="f152529c-9e3c-43d2-a23c-41d0d1f0a4e9" />
+</Solution>
