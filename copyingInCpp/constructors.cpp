@@ -12,6 +12,13 @@ public:
     Point(const Point& that) : x(that.x), y(that.y) {} // Copy constructor
     ~Point() {}
 
+    Point& operator = (const Point& that){ //copy assignment
+        this->x = that.x;
+        this->y= that.y;
+
+        return *this;
+    }
+
     void setX(const int x) { this->x = x; }
     void setY(const int y) { this->y = y; }
 
